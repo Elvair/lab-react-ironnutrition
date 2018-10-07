@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import foods from '../foods.json';
 
-export class Foodbox extends Component {
+export default class Foodbox extends Component {
 
     constructor(props) {
         super(props);
@@ -40,6 +40,8 @@ export class Foodbox extends Component {
                                 <button className="button is-info">
                                     +
                                 </button>
+
+                                
                             </div>
                         </div>
                     </div>
