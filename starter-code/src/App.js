@@ -7,8 +7,8 @@ import Foodbox from './Components/Foodbox';
 import FormFood from './Components/FormFood';
 // 
 class App extends Component {
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state = {
       enableFoods: true,
       foods: afoods
